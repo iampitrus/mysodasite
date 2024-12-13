@@ -10,9 +10,9 @@ import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { View } from "@react-three/drei";
 import Scene from "./Scene";
 gsap.registerPlugin(ScrollTrigger);
+import { View } from "@react-three/drei";
 
 /**
  * Props for `Hero`.
