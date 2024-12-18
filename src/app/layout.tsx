@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Header from "@/components/Header";
 import "../app/app.css";
 import ViewCanvas from "@/components/ViewCanvas";
+import Footer from "@/components/Footer";
 
 // Font files can be colocated inside of `app`
 const alpino = localFont({
@@ -26,6 +27,7 @@ export default function RootLayout({
           {children}
           <ViewCanvas />
         </main>
+        <Footer />
       </body>
       <PrismicPreview repositoryName={repositoryName} />
     </html>
